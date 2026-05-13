@@ -675,7 +675,7 @@ footer {
         top: 0;
         left: 0;
         right: 0;
-        z-index: 9999;
+        z-index: 1000;
     }
 
     .navigation {
@@ -685,7 +685,7 @@ footer {
     /* Accueil */
     #Accueil {
         margin-top: 100px;
-        width: 90%;
+        min-width: 420px;
         min-height:clamp(1300px, 1400px, 1500px);
         align-items: center;
         text-align: center;
@@ -761,7 +761,7 @@ footer {
 
     /* About */
     #About {
-        max-width: 420px;
+        min-width: 400px;
         margin-top: 30px;
         margin: 30px auto;
         display: block;
@@ -794,7 +794,7 @@ footer {
     }
 
     .grid_projet {
-        margin-left: -10px;
+        margin-left: -40px;
         min-height: 400px;
         min-width: 400px;
     }
@@ -812,8 +812,8 @@ footer {
     }
 
     #Profil article div {
-        min-width: clamp(400px, 430px, 440px);
-        margin-left: -10px;
+        min-width: clamp(390px, 400px, 410px);
+        margin-left: -30px;
     }
 
     /* Contact */
@@ -821,7 +821,7 @@ footer {
         margin: 40px auto;
         display: block;
         min-height: 400px;
-        width: 90%;
+        min-width: 420px;
         border-radius: 20px;
         background: linear-gradient(95deg, #213c6b, #2e549d);
         color: white;
